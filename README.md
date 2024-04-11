@@ -1,6 +1,15 @@
 # SYTCraft-NmrihServer
 盛月堂地狱已满服务器
 # 开始
+### 注意事项
+###### 安装前，请确认服务器系统为 Centos 7+
+###### 请严格按照过程执行命令，否则容易出现错误
+###### 如忽视安全问题，可跳过新建用户
+### 新建用户
+###### 新建用户
+    useradd -m steam
+###### 切换用户
+    su steam
 ### 获取依赖
     yum install glibc libstdc++
     yum install glibc.i686 libstdc++.i686
