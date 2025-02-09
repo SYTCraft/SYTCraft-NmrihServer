@@ -2,7 +2,7 @@
 盛月堂地狱已满服务器
 
 # 文档导航
-### [开始](https://github.com/SYTCraft/SYTCraft-NmrihServer/blob/Master/README.md#%E5%BC%80%E5%A7%8B)
+### [开始](https://github.com/SYTCraft/SYTCraft-NmrihServer/blob/Master/README.md#%E5%BC%80%E5%A7%8B-1)
 ###### [Debian安装指南](https://github.com/SYTCraft/SYTCraft-NmrihServer/blob/Master/README.md#debian%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97-1)
 ###### [Centos安装指南](https://github.com/SYTCraft/SYTCraft-NmrihServer/blob/Master/README.md#centos%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97-1)
 
