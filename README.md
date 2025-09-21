@@ -36,7 +36,7 @@
 ###### 下载服务端
     /home/steam/SteamCMD/steamcmd.sh +force_install_dir "/home/steam/Serverfiles/nmrih" +login anonymous +app_update 317670 validate
 ### 运行服务端
-    cd /home/steam/ServerFiles/Nmrih && ./srcds_run -game nmrih +map nmo_suzhou -maxplayers 9
+    cd /home/steam/ServerFiles/Nmrih && ./srcds_run -game nmrih -port 27015 -maxplayers 9 +map nmo_suzhou
 
 ## Centos安装指南
 ### 注意事项
@@ -59,4 +59,5 @@
     /home/steam/SteamCMD/steamcmd.sh +force_install_dir "/home/steam/ServerFiles/Nmrih" +login anonymous +app_update 317670 validate +quit
 ### 运行服务端
 ###### 方案一、
-    cd /home/steam/ServerFiles/Nmrih && ./srcds_run -game nmrih +map nmo_suzhou -maxplayers 9
+    cd /home/steam/ServerFiles/Nmrih && ./srcds_run -game nmrih -port 27015 -maxplayers 9 +map nmo_suzhou
+
