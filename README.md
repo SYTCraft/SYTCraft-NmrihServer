@@ -27,7 +27,7 @@
 ###### 创建 SteamCMD 运行目录
     mkdir -p /home/steam/SteamCMD && cd /home/steam/SteamCMD
 ###### 下载 SteamCMD
-    wget https://media.st.dl.bscstorage.net/client/installer/Steamcmd_linux.tar.gz
+    wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
 ###### 解压 SteamCMD
     unzip -o steamcmd_linux.tar.gz && cd /home
 ### 获取服务端
@@ -49,7 +49,7 @@
 ###### 创建 SteamCMD 运行目录
     mkdir /home/steam/SteamCMD && cd /home/steam/SteamCMD
 ###### 下载 SteamCMD
-    wget https://media.st.dl.bscstorage.net/client/installer/steamcmd_linux.tar.gz
+    wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
 ###### 解压 SteamCMD
     tar -xvzf steamcmd_linux.tar.gz
 ### 获取服务端
