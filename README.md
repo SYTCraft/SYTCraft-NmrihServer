@@ -25,16 +25,16 @@
     sudo apt update && sudo apt-get install lib32gcc-s1
 ### 获取 SteamCMD
 ###### 创建 SteamCMD 运行目录
-    mkdir -p /home/steam/SteamCMD && cd /home/steam/SteamCMD
+    mkdir -p /home/Steam/SteamCMD && cd /home/Steam/SteamCMD
 ###### 下载 SteamCMD
     wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
 ###### 解压 SteamCMD
     unzip -o steamcmd_linux.tar.gz && cd /home
 ### 获取服务端
 ###### 创建服务端运行目录
-    mkdir -p /home/steam/ServerFiles/Nmrih && cd /home/steam/Serverfiles/nmrih
+    mkdir -p /home/Steam/ServerFiles/Nmrih && cd /home/Steam/ServerFiles/nmrih
 ###### 下载服务端
-    /home/steam/SteamCMD/steamcmd.sh +force_install_dir "/home/steam/Serverfiles/nmrih" +login anonymous +app_update 317670 validate
+    /home/Steam/SteamCMD/steamcmd.sh +force_install_dir "/home/Steam/ServerFiles/nmrih" +login anonymous +app_update 317670 validate
 ### 运行服务端
     cd /home/steam/ServerFiles/Nmrih && ./srcds_run -game nmrih -port 27015 -maxplayers 9 +map nmo_suzhou
 
