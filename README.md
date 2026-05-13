@@ -36,7 +36,7 @@
 ###### 下载服务端
     /home/Steam/SteamCMD/steamcmd.sh +force_install_dir "/home/Steam/ServerFiles/nmrih" +login anonymous +app_update 317670 validate
 ### 运行服务端
-    cd /home/steam/ServerFiles/Nmrih && ./srcds_run -game nmrih -port 27015 -maxplayers 9 +map nmo_suzhou
+    cd /home/Steam/ServerFiles/Nmrih && ./srcds_run -game nmrih -port 27015 -maxplayers 9 +map nmo_suzhou
 
 ## Centos安装指南
 ### 注意事项
@@ -47,17 +47,17 @@
     yum install glibc.i686 libstdc++.i686
 ### 获取 SteamCMD
 ###### 创建 SteamCMD 运行目录
-    mkdir /home/steam/SteamCMD && cd /home/steam/SteamCMD
+    mkdir /home/Steam/SteamCMD && cd /home/Steam/SteamCMD
 ###### 下载 SteamCMD
     wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
 ###### 解压 SteamCMD
     tar -xvzf steamcmd_linux.tar.gz
 ### 获取服务端
 ###### 创建服务端运行目录
-    mkdir /home/steam/ServerFiles/Nmrih
+    mkdir /home/Steam/ServerFiles/Nmrih
 ###### 下载服务端
-    /home/steam/SteamCMD/steamcmd.sh +force_install_dir "/home/steam/ServerFiles/Nmrih" +login anonymous +app_update 317670 validate +quit
+    /home/Steam/SteamCMD/steamcmd.sh +force_install_dir "/home/Steam/ServerFiles/Nmrih" +login anonymous +app_update 317670 validate +quit
 ### 运行服务端
 ###### 方案一、
-    cd /home/steam/ServerFiles/Nmrih && ./srcds_run -game nmrih -port 27015 -maxplayers 9 +map nmo_suzhou
+    cd /home/Steam/ServerFiles/Nmrih && ./srcds_run -game nmrih -port 27015 -maxplayers 9 +map nmo_suzhou
 
